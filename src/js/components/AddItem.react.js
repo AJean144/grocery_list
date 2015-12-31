@@ -9,14 +9,18 @@ var AddItem = React.createClass({
 			<div className="row">
 				<div className="col-md-6">
 					<h1>Needed List</h1>
-					<div className="form-group">
-						<InputItem
-						className="form-control"
-						placeholder="add an item to the grocery list"
-						onSave={this._onSave}
-						/>
+					<div className="row">
+						<div className="col-md-10">
+							<InputItem
+							className="form-control"
+							placeholder="add an item to the grocery list"
+							onSave={this._onSave}
+							/>
+						</div>
+						<div className="col-md-2">
+							<button className="btn btn-primary">Add</button>
+						</div>
 					</div>
-					<button className="btn btn-primary">Add</button>
 				</div>
 			</div>
 		);

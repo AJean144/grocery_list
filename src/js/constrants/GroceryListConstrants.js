@@ -1,12 +1,12 @@
 var keyMirror = require('keymirror');
 
 module.exports = keyMirror({
-	CREATE_ITEM: nul,
-	COMPLETE_ITEM: nul,
-	TOGGLE_ALL_ITEMS: nul,
-	UNDO_COMPLETED_ITEM: nul,
-	UPDATE_THE_ITEM: nul,
-	DESTROY_ITEM: nul,
-	DESTROY_ALL_ITEMS: nul,
-	DESTROY_COMPLETED_ITEMS: nul
+	CREATE_ITEM: null,
+	COMPLETE_ITEM: null,
+	TOGGLE_ALL_ITEMS: null,
+	UNDO_COMPLETED_ITEM: null,
+	UPDATE_THE_ITEM: null,
+	DESTROY_ITEM: null,
+	DESTROY_ALL_ITEMS: null,
+	DESTROY_COMPLETED_ITEMS: null
 });

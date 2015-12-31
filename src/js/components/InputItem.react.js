@@ -26,7 +26,6 @@ var InputItem = React.createClass({
 				onChange={this._onChange}
 				onKeyDown={this._onKeyDown}
 				value={this.state.value}
-				style={inputStyle}
 				autoFocus={true}
 			/>			
 		);

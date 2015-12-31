@@ -25,7 +25,7 @@ var GroceryListActions = {
 	},
 	toggleAllItems: function() {
 		AppDispatcher.dispatch({
-			actionType: GroceryListConstrants.TOGGLE_ALL_ITEMS;
+			actionType: GroceryListConstrants.TOGGLE_ALL_ITEMS
 		});
 	},
 	destroy: function(id) {
@@ -36,12 +36,12 @@ var GroceryListActions = {
 	},
 	destroyAllItems: function() {
 		AppDispatcher.dispatch({
-			actionType: GroceryListConstrants.DESTROY_ALL_ITEMS;
+			actionType: GroceryListConstrants.DESTROY_ALL_ITEMS
 		});
 	},
 	destroyAllCompletedItems: function() {
 		AppDispatcher.dispatch({
-			actionType: GroceryListConstrants.DESTROY_COMPLETED_ITEMS;
+			actionType: GroceryListConstrants.DESTROY_COMPLETED_ITEMS
 		});
 	}
 };
